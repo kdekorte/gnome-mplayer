@@ -1,7 +1,8 @@
 ## Process this file with automake to produce Makefile.in
 ## Created by Anjuta
 
-SUBDIRS = src po icons
+ACLOCAL_AMFLAGS = -I m4
+SUBDIRS = gmtk src po icons
 
 gnome_mplayerdocdir = ${docdir}
 gnome_mplayerdoc_DATA = \
